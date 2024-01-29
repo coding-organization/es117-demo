@@ -48,16 +48,47 @@
 6. [[https://docs.github.com/en/education/manage-coursework-with-github-classroom/teach-with-github-classroom/connect-a-learning-management-system-course-to-a-classroom][connect-a-learning-management-system-course-to-a-classroom]]
 - [ ] bu süreç github classroom'da nasıl yönetilir?
 - [ ] ders bir github reposu mudur?
+  Görünüşe göre classroom'da sadece assignment veriliyor. Bir öğrenci assignment'a url'den girdiğinde bir repository açılıyor. Classroom'da genel bir home repository olduğunu görmedim. Belki organizasyon içinde syllabus'la alakalı bir repository açılabilir ve içine README.org vb koyulabilir.
 - [ ] README.org dosyası olacak mı? (dersin syllabusu olacak)
+
+** temel terimler
+|-----------------+--------------------+-------------+-------------+-----------------------|
+| terminal        | shell              | console     | computer    | processor             |
+|-----------------+--------------------+-------------+-------------+-----------------------|
+| data types      | version            | script      | execution   | open-source           |
+|-----------------+--------------------+-------------+-------------+-----------------------|
+| kernel          | operating system   | iteration   | loops       | conditional statement |
+|-----------------+--------------------+-------------+-------------+-----------------------|
+| git             | command            | syntax      | indentation | library               |
+|-----------------+--------------------+-------------+-------------+-----------------------|
+| scope           | function           | variable    | argument    | plotting              |
+|-----------------+--------------------+-------------+-------------+-----------------------|
+| return          | algorithm          | psuedo code | module      | arithmetic            |
+|-----------------+--------------------+-------------+-------------+-----------------------|
+| row-major order | column-major order | algebra     | indexing    | slicing               |
+|-----------------+--------------------+-------------+-------------+-----------------------|
+| boolean         | logic              | file system | path        | directory             |
+|-----------------+--------------------+-------------+-------------+-----------------------|
+| folder          | file               | computation | memory      | Hadamarad product     |
+|-----------------+--------------------+-------------+-------------+-----------------------|
+| Dot product     |                    |             |             |                       |
+
 
 ** detaylı ders planı
 *** week 1
 **** lecture: interacting with an operating system
-objectives:
-1. diagram of a computer
-2. layers of an operating system
-3. the console in windows and linux
-questions (for AI):
+- objectives:
+  1. diagram of a computer
+  2. layers of an operating system
+  3. the console in windows and linux
+- questions (for AI):
+  1. What are the components of an x86 architecture computer?
+  2. x86 naming?
+  3. What are the functions of each computer component?
+  4. Which kind of information does CPU processes, and how?
+  5. How do RAM, and CPU work together?
+  6. Explain kernel in the simplest way possible.
+  7. What is the function of the assemble layer?
 **** lab: terminal crash course w/openAI
 objectives:
 deliverables:
