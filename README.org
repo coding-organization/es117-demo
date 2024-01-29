@@ -1,0 +1,63 @@
+  -*- mode: org -*-
+#+STARTUP: overview
+#+TITLE: es117 ajanda
+#+CREATOR: Fethi Okyar
+#+LANGUAGE: en; tr
+#+OPTIONS: num:nil
+#+ATTR_HTML: :style margin-left: auto; margin-right: auto;
+#+SEQ_TODO: NEXT(n/!) TODO(t@/!) WAITING(w@/!) PROJ(p) | DONE(d@) CANCELLED(c@)
+#+ARCHIVE: ~/snkr/org/archive.org::* From %s
+#+TAGS:guz2023
+
+* yeni ders faaliyet/bileşenleri
+1. [X] github classroom entegrasyonu
+2. [X] matlab bileşeninin yanısıra python eklenmesi
+3. [ ] yulearn/github entegrasyonu için DT bilişim şirketiyle görüşme
+   [[https://docs.github.com/en/education/manage-coursework-with-github-classroom/teach-with-github-classroom/register-a-learning-management-system-with-github-classroom#configuring-moodle-for-github-classroom][register-a-learning-management-system-with-github-classroom]]
+4. [ ] github co-pilot entegrasyonu
+5. [ ] vscode editörünün entegrasyonu
+6. [ ] coursera entegrasyonu
+* öğretim kadrosu
+** Ufuk Tan Baler
+** Mustafa Erkam Özateş (iptal)
+** pilot şubeler için iyileştirme ögeleri
+* syllabus iyileştirme
+| Week | Topics                                                   | change                                     | lab                                   |
+|------+----------------------------------------------------------+--------------------------------------------+---------------------------------------|
+|    1 | Introduction to Computers and Software and MATLAB®       | course conduct                             | no lab                                |
+|    2 | Programming Languages: Matlab, Python                    | interacting with a computer                |                                       |
+|    3 | Basic Calculations & Variables, Lists                    | interacting with an operating system       | terminal crash course w/openAI        |
+|    4 | Built-in Functions and Libraries                         | programming environments: octave, python   | github crash course                   |
+|    5 | Character Arrays and Display Functions                   | data types, operator precedence, registers | basic calculations                    |
+|    6 | Script Files & User Defined Functions                    | available functions, function libraries    | demo of a small library               |
+|    7 | 1ST MIDTERM                                              | character type, basic shell input/output   | user interaction demo                 |
+|    8 | Logical Operators, Operations & The ‘find’ Command       | scripting snippets, storing in files       | a script that calculates the GPA      |
+|    9 | The if – else Statement                                  | list data type in octave vs. python        | number lists for vector-matrix ops    |
+|   10 | For Loops                                                | logicals, operators, using 'find'          | debugging algorithms                  |
+|   11 | While Loops                                              | the if-else conditional                    | bisection method (rootfinding)        |
+|   12 | 2ND MIDTERM                                              | constructing loops for repeated tasks      | generating data series (for plotting) |
+|   13 | Simple 2D Plotting & Multiple Plots in one Figure Window | loops terminating with a while conditional | converging algorithms (rootfinding)   |
+|   14 | File Operations                                          |                                            |                                       |
+
+** github classroom integration
+1. https://github.com/community/Global-Campus-Teachers/discussions/6 Introduction to GitHub Classroom duyurusu
+2. https://skills.github.com/ Learning github featuring beginner to advanced courses
+3. https://github.com/community Github community pages, Global-campus-teachers repo is under this page
+4. https://cli.github.com/ Github CLI, download for your OS
+5. https://github.com/community/Global-Campus-Teachers/discussions/203 discussion thread for Github CLI
+6. [[https://docs.github.com/en/education/manage-coursework-with-github-classroom/teach-with-github-classroom/connect-a-learning-management-system-course-to-a-classroom][connect-a-learning-management-system-course-to-a-classroom]]
+- [ ] bu süreç github classroom'da nasıl yönetilir?
+- [ ] ders bir github reposu mudur?
+- [ ] README.org dosyası olacak mı? (dersin syllabusu olacak)
+
+** detaylı ders planı
+*** week 1
+**** lecture: interacting with an operating system
+objectives:
+1. diagram of a computer
+2. layers of an operating system
+3. the console in windows and linux
+questions (for AI):
+**** lab: terminal crash course w/openAI
+objectives:
+deliverables:
