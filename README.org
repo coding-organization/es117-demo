@@ -71,7 +71,7 @@
 |-----------------+--------------------+-------------+-------------+-----------------------|
 | folder          | file               | computation | memory      | Hadamarad product     |
 |-----------------+--------------------+-------------+-------------+-----------------------|
-| Dot product     | program            | programming |             |                       |
+| Dot product     | program            | programming | interpreter |                       |
 
 
 ** detaylı ders planı
@@ -95,7 +95,37 @@
      Main Memory
      Secondary Memory
      Input and Output Devices
-  
+  2. Programming essentials
+     A language to *spell*, and *construct sentences*
+     Don't worry vocabulary is very small!
+     A story telling skill to convey an idea (PROBLEM) by constructing the story (PROGRAM)
+     The story telling skill persists in every language
+     The learning process of a new language is fairly quick and easy
+     The coherence in writing a program takes TIME!
+     Programming is actually a pleasant and creative process!
+     vocabulary <-> reserved words <-> keywords
+     
+     #+CAPTION: Python Keywords
+     |--------+--------+---------+----------+----------+--------+-------|
+     | False  | None   | True    | and      | as       | assert | async |
+     | await  | break  | class   | continue | def      | del    | elif  |
+     | else   | except | finally | for      | from     | global | if    |
+     | import | in     | is      | lambda   | nonlocal | not    | or    |
+     | pass   | raise  | return  | try      | while    | with   | yield |
+     |--------+--------+---------+----------+----------+--------+-------|
+
+     #+CAPTION: Some of the MATLAB Keywords
+     |----------+--------+----------+----------|
+     | auto     | double | int      | struct   |
+     | break    | else   | long     | switch   |
+     | case     | enum   | register | typedef  |
+     | char     | extern | return   | union    |
+     | const    | float  | short    | unsigned |
+     | continue | for    | signed   | void     |
+     | default  | goto   | sizeof   | volatile |
+     | do       | if     | static   | while    |
+     |----------+--------+----------+----------|
+     
 **** lab: terminal crash course w/openAI
 objectives:
 deliverables:
