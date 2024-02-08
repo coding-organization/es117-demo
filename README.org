@@ -73,7 +73,6 @@
 |-----------------+--------------------+-------------+-------------+-----------------------|
 | Dot product     | program            | programming | interpreter |                       |
 
-
 ** detaylı ders planı
 *** week 1
 **** lecture: interacting with an operating system
@@ -81,6 +80,7 @@
   1. diagram of a computer
   2. layers of an operating system
   3. the console in windows and linux
+     
 - questions (for AI):
   1. What are the components of an x86 architecture computer?
   2. x86 naming?
@@ -89,13 +89,72 @@
   5. How do RAM, and CPU work together?
   6. Explain kernel in the simplest way possible.
   7. What is the function of the assemble layer?
+
 - lecture notes:
-  1. Basic hardware architecture
-     Central Processing Unit
-     Main Memory
-     Secondary Memory
-     Input and Output Devices
-  2. Programming essentials
+  1. Diagram of a computer
+    Hardware <-> Operating System <-> Applications/Programs
+     * Basic hardware architecture
+       Central Processing Unit
+       Memory
+       Disk
+       Ethernet
+       Disk and ethernet controllers
+       I/O bus
+
+  2. Layers of an operating system
+    https://linux-kernel-labs.github.io/refs/heads/master/lectures/intro.html
+     1) User space
+	+ applications
+     2) Kernel space
+	+ system call interface
+	+ kernel
+	+ device drivers
+     3) Hardware
+
+     What is kernel?
+     * Kernel
+       + Process management
+       + Memory management
+       + Device communication
+       + System calls
+       + Setting up the filesystem
+
+     * Some key concepts:
+       + Process
+       + Program
+       + Files
+       + Virtual memory
+
+     What is a shell?
+     https://www.gnu.org/software/bash/manual/bash.html#What-is-a-shell_003f
+  
+  3. The console in windows and linux
+     Why do we need a console in our OS?
+     CPU understands *machine language*
+     #+BEGIN_SRC
+     0101000010000101110101010101101000
+     0001011101010000001111110000001011
+     ...
+     #+END_SRC
+     * Interpreter
+       It is like a conversation with a computer.
+       reads the code -> parses the code -> interprets!
+       #+BEGIN_SRC python
+       x = 6
+       print(x)
+       y = x * 7
+       print(y)
+       #+END_SRC
+     
+**** lab: terminal crash course w/openAI
+objectives:
+deliverables:
+-  To download the latest python3 interpreter go to https://www.anaconda.com/download/.
+
+*** week 2
+**** lecture: programming environments: octave, python
+- lecture notes:
+  1. Programming essentials
      A language to *spell*, and *construct sentences*
      Don't worry vocabulary is very small!
      A story telling skill to convey an idea (PROBLEM) by constructing the story (PROGRAM)
@@ -125,7 +184,7 @@
      | default  | goto   | sizeof   | volatile |
      | do       | if     | static   | while    |
      |----------+--------+----------+----------|
-     
-**** lab: terminal crash course w/openAI
+
+**** lab: github crash course
 objectives:
 deliverables:
