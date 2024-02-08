@@ -1,4 +1,3 @@
-  -*- mode: org -*-
 #+STARTUP: overview
 #+TITLE: es117 ajanda
 #+CREATOR: Fethi Okyar
