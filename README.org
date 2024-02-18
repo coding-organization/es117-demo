@@ -8,6 +8,8 @@
 #+ARCHIVE: ~/snkr/org/archive.org::* From %s
 #+TAGS:guz2023
 
+[[file:folder-1/README.org][Go to target file]]
+
 * yeni ders faaliyet/bileşenleri
 1. [X] github classroom entegrasyonu
 2. [X] matlab bileşeninin yanısıra python eklenmesi
@@ -126,9 +128,15 @@
 
      What is a shell?
      https://www.gnu.org/software/bash/manual/bash.html#What-is-a-shell_003f
-  
+#+BEGIN_SRC bash
+sleep 5 & echo es117
+#+END_SRC
+     Shell is both a command interpreter and a programming language.
+       
   3. The console in windows and linux
      Why do we need a console in our OS?
+     A console, also known as a terminal emulator, uçbirim öykünücüsü, is a window that emulates a computer terminal.
+     
      CPU understands *machine language*
      #+BEGIN_SRC
      0101000010000101110101010101101000
@@ -187,3 +195,15 @@ deliverables:
 **** lab: github crash course
 objectives:
 deliverables:
+
+Some ideas:
+Version control: git, Github
+git, Github crash course
+disassembly of a computer and laptop
+laptop situation for labs
+Check labs
+Request old exams and quizzes
+Attendence in grading?
+Cygwin?
+Git terminal?
+Arithmetic symbols
